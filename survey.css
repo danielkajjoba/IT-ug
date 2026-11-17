@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #002147;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #002147;
+    color: white;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-image: url("survey-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.banner h2 {
+    background-color: rgba(0, 33, 71, 0.7);
+    padding: 15px;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #002147;
+    color: white;
+}
+
+.current-step {
+    background-color: #D4AF37;
+    color: #002147;
+    padding: 10px;
+    font-weight: bold;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #002147;
+}
+
+legend {
+    color: #002147;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group > label:first-child {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input:not([type="radio"]),
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #002147;
+}
